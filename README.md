@@ -19,7 +19,7 @@ Mendix version 6.10 or up
 ## Demo project
 https://pulltorefresh.mxapps.io
 
-![1](assets/demo.gif)
+![1](https://raw.githubusercontent.com/mendixlabs/pull-to-refresh/v1.0.1/assets/demo.gif)
 
 ## Usage
 * Place the widget on a page or layout
