@@ -97,7 +97,7 @@ export class PullToRefresh {
             releaseToRefreshText,
             reloadDistance } = this.settings;
 
-        if (iconElement && textElement && nextState !== this.state ) {
+        if (iconElement && textElement && nextState !== this.state) {
             if (nextState === "refreshing") {
                 pullToRefreshElement.style.minHeight = `${reloadDistance}px`;
                 domClass.replace(pullToRefreshElement, `${classPrefix}refresh`, `${classPrefix}release`);
@@ -156,7 +156,7 @@ export class PullToRefresh {
                pullToRefreshElement.style.minHeight = `${this.distanceResisted}px`;
             }
             if (this.state === "pulling" && distanceResisted > thresholdDistance) {
-                this.update( "releaseToRefresh");
+                this.update("releaseToRefresh");
             }
 
             if (this.state === "releaseToRefresh" && distanceResisted < thresholdDistance) {
@@ -186,7 +186,7 @@ export class PullToRefresh {
         if (element === null) {
             return false;
         }
-        if (element.scrollTop > 5 ) {
+        if (element.scrollTop > 5) {
             return true;
         } else {
             return this.isScrollActive(element.parentNode as HTMLElement);
