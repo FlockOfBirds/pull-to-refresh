@@ -19,7 +19,7 @@ Mendix version 6.10 or up
 ## Demo project
 https://pulltorefresh.mxapps.io
 
-![1](assets/demo.gif)
+![1](https://raw.githubusercontent.com/mendixlabs/pull-to-refresh/v1.0.1/assets/demo.gif)
 
 ## Usage
 * Place the widget on a page or layout
@@ -48,7 +48,7 @@ To set up the development environment, run:
 
 Create a folder named `dist` in the project root.
 
-Create a Mendix test project in the dist folder and rename its root folder to `dist/MxTestProject`. Or get the test project from https://github.com/mendixlabs/pull-to-refresh/releases/download/1.0.0/TestPullToRefresh.mpk Changes to the widget code shall be automatically pushed to this test project.
+Create a Mendix test project in the dist folder and rename its root folder to `dist/MxTestProject`. Or get the test project from https://github.com/mendixlabs/pull-to-refresh/releases/download/1.0.1/TestPullToRefresh.mpk Changes to the widget code shall be automatically pushed to this test project.
 
 To automatically compile, bundle and push code changes to the running test project, run:
 
